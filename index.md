@@ -1,3 +1,8 @@
+# State Small Business Credit Initiative (SSBCI) Loan Impacts
+## Data 606 Capstone
+### Tom Kelly and Len Mancini
+
+
 
 
 You can use the [editor on GitHub](https://github.com/ljmancini1/DATA-606-Small-Business-Loans/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
