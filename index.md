@@ -36,6 +36,10 @@ For more information on the SSBCI Policy Guidelines, see the [Treasury Departmen
 
 ### Dataset
 
+State Small Business Credit Initiative Transaction Dataset
+State Small Business Credit Initiative provides government loans to small business 
+Dataset contains information related to loan investment amount, lender type, metro type, income categorization, private financing, program type, and more. 
+Source: U.S. Department of Treasury  https://www.treasury.gov/resource-center/sb-programs/Pages/ssbci-transactions-dataset.aspx
 
 
 ### References
