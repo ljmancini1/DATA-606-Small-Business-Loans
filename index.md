@@ -35,14 +35,20 @@ The SSBCI provides funding for two state program categories: Capital Access Prog
 For more information on the SSBCI Policy Guidelines, see the [Treasury Department Website](https://home.treasury.gov/system/files/256/Policy-Guidelines-9-30-2014-FINAL.pdf)
 
 ### Dataset
-
+The dataset is provided by the Department of the Treasure and can be found below <br>
 [State Small Business Credit Initiative Transaction Dataset](https://home.treasury.gov/system/files/256/SSBCI-Transactions-Dataset.csv)
 
-The dataset consists of all loand transaction data for the program from 2010-2016. It includes contains information related to loan investment amount, lender type, metro type, income categorization, private financing, program type, and more. 
+The dataset consists of all loan transaction data for the program from 2010-2016. It includes contains information related to loan investment amount, lender type, metro type, income categorization, private financing, program type, and more. 
 
 Dataset Size: 21,962 Rows, 49 Columns
 
-[Data Definitions](https://home.treasury.gov/system/files/256/SSBCI-Data-Definitions.pdf)
+A complete list of columns is provided below as well as links to the definitions for the data
+
+In addition, to compensate for economic conditions at each point in time, we will be including columns for the monthly CPI for the time of the loan, the PPI, and the 10 year treasury note rate.
+
+A column for net jobs created/retained will be added as well which is defined as Jobs Created + Jobs Retained
+
+[Data Definitions](https://home.treasury.gov/system/files/256/SSBCI-Data-Definitions.pdf)<br>
 [Data Documentation](https://home.treasury.gov/system/files/256/SSBCI-Data-Documentation.pdf)
 
 Column list
