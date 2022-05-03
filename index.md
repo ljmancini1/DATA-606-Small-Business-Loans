@@ -36,11 +36,68 @@ For more information on the SSBCI Policy Guidelines, see the [Treasury Departmen
 
 ### Dataset
 
-State Small Business Credit Initiative Transaction Dataset
-State Small Business Credit Initiative provides government loans to small business 
-Dataset contains information related to loan investment amount, lender type, metro type, income categorization, private financing, program type, and more. 
-Source: U.S. Department of Treasury  https://www.treasury.gov/resource-center/sb-programs/Pages/ssbci-transactions-dataset.aspx
+[State Small Business Credit Initiative Transaction Dataset](https://home.treasury.gov/system/files/256/SSBCI-Transactions-Dataset.csv)
 
+The dataset consists of all loand transaction data for the program from 2010-2016. It includes contains information related to loan investment amount, lender type, metro type, income categorization, private financing, program type, and more. 
+
+Dataset Size: 21,962 Rows, 49 Columns
+
+[Data Definitions](https://home.treasury.gov/system/files/256/SSBCI-Data-Definitions.pdf)
+[Data Documentation](https://home.treasury.gov/system/files/256/SSBCI-Data-Documentation.pdf)
+
+Column list
+
+Column Name|Nulls
+----|----
+state_id                 |            0
+state_name                |           0 
+year_reported              |          0
+program_name                |         0
+program_type                 |        0
+unique_id                     |       0
+disbursement_date              |      0
+loan_investment_amount          |     0
+ssbci_original_funds             |    0
+nonprivate_amount                 |   0
+concurrent_private_financing       |  0
+borrower_insurance_premium          | 0
+lender_insurance_premium             |0
+guaranteed_amount            |        0
+collateral_support            |       0
+ssbci_recycled_funds           |      0
+subsequent_private_financing    |     0
+zip_code                         |    0
+metro_type                        |   0
+LMI_type                           |  0
+revenue                           |   0
+full_time_employees            |      0
+naics_code                      |     0
+year_incorporated                |    0
+jobs_created                      |   0
+jobs_retained                    |    0
+trans_type                  |         0
+lender_name                  |     1623
+lender_type                   |    1637
+lender_type_category           |   1677
+CDFI_type                       |     0
+MDI_type                         |    0
+VC_cat                        |       0
+optional_woman_owned         |     8696
+optional_minority_owned     |      9000
+optional_veteran_owned       |    12344
+optional_FTE                  |   11286
+optional_FTE_yr_confirmed      |  11286
+optional_primary_use_of_funds   | 11684
+optional_revenue                 |12466
+optional_revenue_yr_confirmed  |  12466
+optional_active                 | 18482
+optional_active_no         |      21651
+optional_active_unknown     |     19883
+optional_dollars_lost        |    20122
+optional_business_city        |    8685
+optional_business_state        |  15805
+optional_coinvestment_source    | 21025
+optional_stage                   |20995
 
 ### References
 
