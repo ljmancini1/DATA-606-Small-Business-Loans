@@ -34,13 +34,9 @@ The SSBCI provides funding for two state program categories: Capital Access Prog
 
 For more information on the SSBCI Policy Guidelines, see the [Treasury Department Website]((https://home.treasury.gov/system/files/256/Policy-Guidelines-9-30-2014-FINAL.pdf)
 
-
-
-#### Research Question
-
-#### Currrent Relevance
-
 ### Dataset
+
+
 
 ### References
 
