@@ -1,10 +1,10 @@
 # State Small Business Credit Initiative (SSBCI) Loan Impacts
 
-[Team Members](#Team Members and Roles)
+[Team Members](#Team-Members-and-Roles) | [Background](#Background) | [Project Overview](#Project-Overview) | [Dataset](#Dataset) | [References](#References)
 
 ### Team Members and Roles
 
-Tom Kelly - Data cleaning and exploratory analysis. Construction of predictive models and RESTful web API creation
+Tom Kelly - Data cleaning and exploratory analysis. Construction of predictive models and RESTful web API creation<br>
 Len Mancini - Data engineerring and clustering analysis. Authoring of Blog and team webpage
 
 
@@ -21,6 +21,15 @@ The SSBCI provides funding for two state program categories: Capital Access Prog
 
 For more information on the SSBCI Policy Guidelines, see the [Treasury Department Website]((https://home.treasury.gov/system/files/256/Policy-Guidelines-9-30-2014-FINAL.pdf)
 
+### Project Overview
+
+#### Research Question
+
+#### Currrent Relevance
+
+### Dataset
+
+### References
 
 You can use the [editor on GitHub](https://github.com/ljmancini1/DATA-606-Small-Business-Loans/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
