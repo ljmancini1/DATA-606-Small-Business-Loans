@@ -4,13 +4,26 @@
 
 ### Team Members and Roles
 
-Tom Kelly - Data cleaning and exploratory analysis. Construction of predictive models and RESTful web API creation<br>
-Len Mancini - Data engineerring and clustering analysis. Authoring of Blog and team webpage
+**Tom Kelly** - Data cleaning and exploratory analysis. Construction of predictive models and RESTful web API creation<br>
+**Len Mancini** - Data engineerring and clustering analysis. Authoring of Blog and team webpage
+
+### Project Overview
+<p>The State Small Business Credit Initiative (SSBCI) was created as part of the Small Business Jobs Act of 2010. The program appropriated $1.5 billion, distributed by the U.S. Department of the Treasury, to provide direct support to states' programs designed to increase access to credit for small businesses. Funds were allocated to all fifty states along with the District of Columbia, the Commonwealth of Puerto Rico, the Commonwealth of Northern Mariana Islands, Guam, American Samoa, and the United States Virgin Islands. Funds were distributed according to a statutory formula that takes into account a state’s job losses in proportion to the aggregate job losses of all states. Under the Act, each state or territory was guaranteed a minimum allocation of 0.9 percent of the $1.5 billion.</p>
+
+The **American Rescue Plan Act of 2021 (ARPA)** reauthorized and amended the **Small Business Jobs Act of 2010 (SBJA)** to provide $10 billion to fund the **State Small Business CreditInitiative (SSBCI)** as a response to the economic effects of the COVID-19 pandemic. This is a near 10 fold increase (nominally) in the funding for this program. ARPA provided for a $6.5 billion maincapital allocation, $1.5 billion allocation for business enterprises owned and controlled by socially and economically disadvantaged individuals (SEDI-owned businesses), $1.0 billionincentive allocation for SEDI-owned businesses, $500 million allocation for very smallbusinesses (VSBs), and $500 million allocation for technical assistance funding. 
+
+#### Research Question
+Given that the **SSBCI** has been reimplemented as part of the **ARPA** the project seeks to answer this question:
+
+* **Can we predict based the data provided by first implementation of the SSBCI if a loan will be successful at creating and/or retaining jobs?**
+
+This project seeks to answer this question in two distinct ways through predictive modeling using classification and regression.
+1. Given a set of input features, will a business receiving a loan as part of this program create and/or retain jobs
+2. How many jobs is the business likely to create or retain based on the size of the loan.
+
 
 
 ### Background
-<p>The State Small Business Credit Initiative (SSBCI) was created as part of the Small Business Jobs Act of 2010. The program appropriated $1.5 billion, distributed by the U.S. Department of the Treasury, to provide direct support to states' programs designed to increase access to credit for small businesses. Funds were allocated to all fifty states along with the District of Columbia, the Commonwealth of Puerto Rico, the Commonwealth of Northern Mariana Islands, Guam, American Samoa, and the United States Virgin Islands. Funds were distributed according to a statutory formula that takes into account a state’s job losses in proportion to the aggregate job losses of all states. Under the Act, each state or territory was guaranteed a minimum allocation of 0.9 percent of the $1.5 billion.</p>
-
 The SSBCI provides funding for two state program categories: Capital Access Programs (“CAPs”) and Other Credit Support Programs (“OCSPs”). 
   
 <ul>
@@ -21,7 +34,7 @@ The SSBCI provides funding for two state program categories: Capital Access Prog
 
 For more information on the SSBCI Policy Guidelines, see the [Treasury Department Website]((https://home.treasury.gov/system/files/256/Policy-Guidelines-9-30-2014-FINAL.pdf)
 
-### Project Overview
+
 
 #### Research Question
 
