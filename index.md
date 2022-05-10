@@ -1,7 +1,8 @@
 # State Small Business Credit Initiative (SSBCI) Loan Impacts
 
+
+[Team Members](#Team-Members-and-Roles) | [Project Overview](#Project-Overview) | [Background](#Background) | [Dataset](#Dataset) | [References](#References) <br>
 [Blogpost](./blogpost.md)
-[Team Members](#Team-Members-and-Roles) | [Project Overview](#Project-Overview) | [Background](#Background) | [Dataset](#Dataset) | [References](#References)
 
 ### Team Members and Roles
 
