@@ -12,4 +12,4 @@ Now, the SSBCI is being reimplemented as part of the American Rescue Plan of 202
 The Dataset
 The dataset consist of data for every company participating in the program from the entirety of 2010 to 2017. It includes the type of program the business received funding through as well as how much. To normalize for changing economic conditions, the dataset will be modified to include some macroeconomic measures such as CPI, PPI, Unemployment, and the S&P 500 index level.
 
-(Scatter)![img/scatter1.png]
+!(Scatter)[img/scatter1.png]
