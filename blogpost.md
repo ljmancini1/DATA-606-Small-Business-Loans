@@ -9,10 +9,10 @@ The program ran from 2010-2017 and created $10.7 billion in new financing from o
 
 Now, the SSBCI is being reimplemented as part of the American Rescue Plan of 2021, this time with $10 billion. This would mean nearly $100 billion in new financing for small businesses (assuming the loan creation ration stays the same). This leads to a question: Can we use machine learning models to predict the success of an individual company receiving funds? Specifically, will a company that receives funds be able to create jobs and/or retain employees?
 
-The Dataset
+### The Dataset
 The dataset consist of data for every company participating in the program from the entirety of 2010 to 2017. It includes the type of program the business received funding through as well as how much. To normalize for changing economic conditions, the dataset will be modified to include some macroeconomic measures such as CPI, PPI, Unemployment, and the S&P 500 index level.
 
-Clustering Using K-Prototypes
+### Clustering Using K-Prototypes
 The dataset represents a relatively heterogeneous set of companies, as each company has slightly different market conditions and geography. The suspicion was that companies are more similarly to one another than initially suspected. In fact, it is likely that the companies can be grouped in a small set of clusters.
 
 If this is the case, it should be possible to show that each small business fits into one of several clusters. With this information, it will be possible to add the group the business belongs to as a feature for later classification. In addition, by examining the similarities of these groups using a classification algorithm, it should be possible to extract feature importance information about all small business for predictive model development.
@@ -39,6 +39,7 @@ Next, calculating the SHAP values for feature importance demonstrates if the clu
 <img src="img/shap10features.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+ 
 <img src="img/shap15features.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
