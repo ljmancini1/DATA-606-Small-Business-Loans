@@ -18,7 +18,7 @@ The dataset represents a relatively heterogeneous set of companies, as each comp
 If this is the case, it should be possible to show that each small business fits into one of several clusters. With this information, it will be possible to add the group the business belongs to as a feature for later classification. In addition, by examining the similarities of these groups using a classification algorithm, it should be possible to extract feature importance information about all small business for predictive model development.
 
 The approach used here is first use a dimensionality reduction technique to visualize the clusters, making them countable. Then, use a clustering algorithm to determine the appropriate number of groups. For dimensionality reduction, Uniform Manifold Approximation (UMAP) is used to map the n-feature vector onto a 2 dimensional surface, creating a projection. 
-<img src="img/scatter1.png"
+<img width="750" src="img/clusterplot.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 The dataset contains many categorical variables so K-Means is not robust enough to give accurate groupings, and the added computational cost of creating One-Hot encoded features creates a technically constraint on the clustering algorithm. The more appropriate approach is to use K-Prototypes, which accepts both numerical and categorical data. K-Prototypes measures similarity between numerical data using Euclidean distance and between categorical data using a weighted discrete function dependent on the standard deviation and mode of each categorical feature. The cost is then calculated using the Huang cost function.
@@ -27,22 +27,26 @@ Trying to run K-Means as well as the elbow plot for optimal cluster size resulte
 
 In order to evaluate the accuracy and quality of the clustering, we can treat the clusters as labels and build a classification model on top. Each point in the dataset is assigned a cluster according to the results of the K-Prototype algorithm. If the clusters are of high quality, the classification model will be able to predict them with high accuracy. At the same time, the models should use a variety of features to ensure that the clusters are not too simplistic. K-Prototypes was run for 8 clusters, 10 clusters, and 15 clusters, chosen by visual inspection of the UMAP projection. Calculating the F1 scores shows that 10 clusters produces the highest quality cluster grouping.
 
-<img src="img/scatterColor10.png"
+<img width="541" title= "K-Prototypes with 8 Clusters" src="img/cluster8.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-<img src="img/scatterColor15.png"
+<img width="541"  title= "K-Prototypes with 10 Clusters"  src="img/cluster10.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
-Next, calculating the SHAP values for feature importance demonstrates if the clustering is using a high number of features. As is shown, 10 clusters produces a high number of features used for determining the clusters. 
+Next we look at the F1 scores for the differing number of clusters. We can see that the F1 score goes down from 4 to 8 clusters but ticks back up at 10. All models appear to still be candidates.
 
-<img src="img/shap10features.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
- 
-<img src="img/shap15features.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+>`CV F1 score for K-Prototypes 4 clusters is 0.94119936047242`
+>
+>`CV F1 score for K-Prototypes 6 clusters is 0.9643122786856988`
+>
+>`CV F1 score for K-Prototypes 8 clusters is 0.9544591027034534`
+>
+>`CV F1 score for K-Prototypes 10 clusters is 0.9599366334634558`
+
+Finally, calculating the SHAP values for feature importance demonstrates if the clustering is using a high number of features. As is shown, 10 clusters produces a high number of features used for determining the clusters. 
+
+<img width="500"  title= "K-Prototypes with 8 Clusters"  src="img/shap8.png"/> <img width="500"  title= "K-Prototypes with 10 Clusters"  src="img/shap10.png"/>
 ## Regression Models
 
 #### Univariate Linear Regression Model
