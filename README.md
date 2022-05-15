@@ -29,5 +29,5 @@ Regression uses and OLS multiple linear regression model to try to predict how m
 Run the api.py file to create a locally running RESTapi that will take one or many feature vectors in json format and will output a prediction for whether or not a company will create jobs as a result of financing. This can be used to adjust financing levels to predict multiple outcomes for a company. Based on the Gradient Boosting Classification model found in `Classification and Regression.ipynb`. 
 
 Example input:
-`[   { "loan_investment_amount": 1, "ssbci_original_funds": 1, "full_time_employees" : 1, "revenue": 1, "jobs_retained": 1,  "SPY_Close": 1}
+>`[   { "loan_investment_amount": 1, "ssbci_original_funds": 1, "full_time_employees" : 1, "revenue": 1, "jobs_retained": 1,  "SPY_Close": 1}
  ]`
