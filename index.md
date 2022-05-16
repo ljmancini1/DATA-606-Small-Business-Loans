@@ -2,7 +2,11 @@
 
 
 [Team Members](#Team-Members-and-Roles) | [Project Overview](#Project-Overview) | [Background](#Background) | [Dataset](#Dataset) | [References](#References) <br>
-[Blogpost](./blogpost.md)
+
+[Presentation 1](https://docs.google.com/presentation/d/1VlreGTPcBNlG_-Uz1DgtCOFSxcUQ9wLhoPRF_BIgc-o/edit#slide=id.p)<br>
+[Presentation 2](https://docs.google.com/presentation/d/1nzdJpaRTasZiWCSYURfkutBy99DzAnbcFcXuAhUA8WI/edit#slide=id.g11ac1c9d955_0_8)<br>
+[Presentation 3](https://docs.google.com/presentation/d/1Jtzv5G5-DvxmW5LNojOmE7GiUAmaZY9hImNLNFm-7J8/edit#slide=id.g128c6024fc3_0_269)<br>
+[Blogpost](./blogpost.md)<br>
 
 ### Team Members and Roles
 
