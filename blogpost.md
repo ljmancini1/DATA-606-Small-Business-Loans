@@ -27,59 +27,59 @@ The dataset contains many categorical variables so K-Means is not robust enough 
 
 Trying to run K-Means as well as the elbow plot for optimal cluster size resulted in code that would not complete running after 10 hours. K-Prototypes runs in a matter of minutes, however the elbow plot did not complete running. Overlaying the cluster groupings using color on the UMAP projection visualizes where the clusters form relative to one another.
 
-In order to evaluate the accuracy and quality of the clustering, we can treat the clusters as labels and build a classification model on top. Each point in the dataset is assigned a cluster according to the results of the K-Prototype algorithm. If the clusters are of high quality, the classification model will be able to predict them with high accuracy. At the same time, the models should use a variety of features to ensure that the clusters are not too simplistic. K-Prototypes was run for 8 clusters, 10 clusters, and 15 clusters, chosen by visual inspection of the UMAP projection. 
+In order to evaluate the accuracy and quality of the clustering, we can treat the clusters as labels and build a classification model on top. Each point in the dataset is assigned a cluster according to the results of the K-Prototype algorithm. If the clusters are of high quality, the classification model will be able to predict them with high accuracy. At the same time, the models should use a variety of features to ensure that the clusters are not too simplistic. K-Prototypes was run for 8 clusters, 10 clusters, and 15 clusters, chosen by visual inspection of the UMAP projection. <br>
 
-Four Clusters
+Four Clusters<br>
 
 <img width="541" title= "K-Prototypes with 8 Clusters" src="img/cluster4.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /><br><br>
      
-Six Clusters
+Six Clusters<br>
 
 <img width="541" title= "K-Prototypes with 8 Clusters" src="img/cluster6.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /><br><br>
      
-Eight Clusters
+Eight Clusters<br>
 
 <img width="541" title= "K-Prototypes with 8 Clusters" src="img/cluster8.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /><br><br>
  
-Ten Clusters
+Ten Clusters<br>
 
 <img width="541"  title= "K-Prototypes with 10 Clusters"  src="img/cluster10.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /><br><br>
 
-Next we look at the F1 scores for the differing number of clusters. We can see that the F1 score goes down from 4 to 8 clusters but ticks back up at 10. All models appear to still be candidates.
+Next we look at the F1 scores for the differing number of clusters. We can see that the F1 score goes down from 4 to 8 clusters but ticks back up at 10. All models appear to still be candidates.<br>
 
->`CV F1 score for K-Prototypes 4 clusters is 0.94119936047242`
+>`CV F1 score for K-Prototypes 4 clusters is 0.94119936047242`<br>
 >
->`CV F1 score for K-Prototypes 6 clusters is 0.9643122786856988`
+>`CV F1 score for K-Prototypes 6 clusters is 0.9643122786856988`<br>
 >
->`CV F1 score for K-Prototypes 8 clusters is 0.9544591027034534`
+>`CV F1 score for K-Prototypes 8 clusters is 0.9544591027034534`<br>
 >
->`CV F1 score for K-Prototypes 10 clusters is 0.9599366334634558`
+>`CV F1 score for K-Prototypes 10 clusters is 0.9599366334634558`<br>
 
 Finally, calculating the SHAP values for feature importance demonstrates if the clustering is using a high number of features. As is shown, 10 clusters produces a high number of features used for determining the clusters. <br>
 
-Four Clusters
+Four Clusters<br>
 
-<img width="500"  title= "K-Prototypes with 8 Clusters"  src="img/shap4.png"/>
+<img width="500"  title= "K-Prototypes with 8 Clusters"  src="img/shap4.png"/><br>
 
-Six Clusters
+Six Clusters<br>
 
-<img width="500"  title= "K-Prototypes with 8 Clusters"  src="img/shap6.png"/>
+<img width="500"  title= "K-Prototypes with 8 Clusters"  src="img/shap6.png"/><br>
 
-Eight Clusters
+Eight Clusters<br>
 
-<img width="500"  title= "K-Prototypes with 8 Clusters"  src="img/shap8.png"/>
+<img width="500"  title= "K-Prototypes with 8 Clusters"  src="img/shap8.png"/><br>
 
-Ten Clusters
+Ten Clusters<br>
 
-<img width="500"  title= "K-Prototypes with 10 Clusters"  src="img/shap10.png"/>
+<img width="500"  title= "K-Prototypes with 10 Clusters"  src="img/shap10.png"/><br>
 
 This analysis shows that K-Prototypes with 10 clusters is the best choice for feature diversity and F1-Score. This also indicates that clusters are well defined even with up to 10 clusters and have well defined boundaries. 
 ## Regression Models
