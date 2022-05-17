@@ -112,6 +112,20 @@ optional_coinvestment_source    | 21025
 optional_stage                   |20995
 
 ### References
+https://www.treasury.gov/resource-center/sb-programs/Pages/ssbci-transactions-dataset.aspx
 
+Program Evaluation of The US Department of Treasury State Small Business Credit Initiative Prepared by the Center for Regional Economic Competitiveness and Cromwell Schmisseur. (2016). https://www.treasury.gov/resource-center/sb-programs/Documents/SSBCI%20Program%20Evaluation%202016%20-%20Full%20Report.pdf
 
+https://fred.stlouisfed.org/series/UNRATE Economic Research Federal Reserve Bank of St. Louis - Historical Unemployment Rate
+
+Basic pie chart — Matplotlib 3.3.4 documentation. (n.d.). Matplotlib.org; Matplotlib. Retrieved May 16, 2022, from https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_features.html
+
+Raschka, S., & Vahid Mirjalili. (2019). Python Machine Learning (3rd ed.). Packt Publishing Ltd.
+https://www.treasury.gov/resource-center/sb-programs/Pages/ssbci-transactions-dataset.aspx
+
+Program Evaluation of The US Department of Treasury State Small Business Credit Initiative Prepared by the Center for Regional Economic Competitiveness and Cromwell Schmisseur. (2016). https://www.treasury.gov/resource-center/sb-programs/Documents/SSBCI%20Program%20Evaluation%202016%20-%20Full%20Report.pdf
+
+Paul, Sayak (24 October  2018).  “Turning Machine Learning Models into APIs in Python” https://www.datacamp.com/tutorial/machine-learning-models-api-python
+
+Ruber, Antons (16 May 2020). "K-Prototypes - Customer Clustering with Mixed Data Types." https://antonsruberts.github.io/kproto-audience/
 
